@@ -34,6 +34,3 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.display.guacamole.rc
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.oneplus_msmnile
