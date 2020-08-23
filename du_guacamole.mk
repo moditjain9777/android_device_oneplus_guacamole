@@ -29,11 +29,13 @@ PRODUCT_CHARACTERISTICS := nosdcard
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SCREEN_HEIGHT := 3120
+TARGET_SCREEN_WIDTH := 1440
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
-
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_WIFI_EXT := true
 # Build info
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
