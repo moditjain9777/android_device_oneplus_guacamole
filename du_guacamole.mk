@@ -29,8 +29,10 @@ PRODUCT_CHARACTERISTICS := nosdcard
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3120
-TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
+
+#FOD Animation
+EXTRA_FOD_ANIMATIONS := true
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
