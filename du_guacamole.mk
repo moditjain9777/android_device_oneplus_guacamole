@@ -25,9 +25,6 @@ PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
 
-# Inherit PixelGapps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
-
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
