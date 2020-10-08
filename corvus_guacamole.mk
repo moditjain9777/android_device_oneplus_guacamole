@@ -14,8 +14,8 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/gapps/config.mk)
-$(call inherit-product, vendor/pixelstyle/config.mk)
+# Inherit GApps if exsits
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := corvus_guacamole
@@ -46,4 +46,3 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
