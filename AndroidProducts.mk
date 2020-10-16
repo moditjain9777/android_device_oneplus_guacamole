@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_guacamole.mk
+    $(LOCAL_DIR)/kangos_guacamole.mk
