@@ -10,6 +10,9 @@ vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
+# Bluetooth
+vendor/lib/liba2dpoffload.so
+
 # Camera
 vendor/lib/camera/components/com.oneplus.node.bokeh.so
 vendor/lib/camera/components/com.oneplus.node.rtb.so
