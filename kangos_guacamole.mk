@@ -47,3 +47,10 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
+
+USE_GAPPS=true
+
+#Device Info.
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.kangos.maintainer=Modit_ji \
+  ro.kangos.cpu=SDM855
