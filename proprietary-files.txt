@@ -13,6 +13,9 @@ vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 # Bluetooth
 vendor/lib/liba2dpoffload.so
 
+# Thermal
+vendor/bin/thermal-engine
+
 # Camera
 vendor/lib/camera/components/com.oneplus.node.bokeh.so
 vendor/lib/camera/components/com.oneplus.node.rtb.so
